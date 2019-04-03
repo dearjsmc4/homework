@@ -8,45 +8,110 @@
   <body>
     <div class="container">
       <header class="header">
-        <h1 class="logo">
-            <a href="#">
-            <img src="logo.png" alt="Line Logo" />
-            </a>
-        </h1>
+        <div class="fixed-header">
         <nav>
+          <h1 class="logo">
+              <a href="#">
+                <img src="logo.png" alt="Line Logo" />
+              </a>
+          </h1>
           <h2 class="readable-hidden">메인메뉴</h2>
           <ul class="menu">
-            <li>회사소개</li>
-            <li>사업</li>
-            <li>홍보</li>
-            <li>채용</li>
+            <li><a href="">회사소개</a></li>
+            <li><a href="">사업</a></li>
+            <li><a href="">홍보</a></li>
+            <li><a href="">채용</a></li>
           </ul>
         </nav>
         <div class="page-service">
-        <a href="#">SITEMAP</a>
-        <select name="언어설정" class="choose">
-          <option value="01">한국어</option>
-        </select>
+          <a href="#">SITEMAP</a>
+          <select name="language" class="language">
+            <option value="01">한국어</option>
+          </select>
         </div>
+    </div>
       </header>
-      <div class="line-video">동영상</div>
+      <div class="line-video">
+        <p>CLOSING THE DISTANCE</p>
+        <button>LINE's Mission</button>
+      </div>
       <section class="news">
         <h3 class="newsroom">Newsroom</h3>
-        <div class="group1">그룹1</div>
-        <div class="group2">그룹</div>
+        <div class="group1">
+          <ul class="news-list">
+            <li>
+              라인, 웰컴 키트 디자인 프로젝트로 iF 디자인 어워드 2019 수상
+            </li>
+            <li>
+              라인, 보안 역량 강화 위해 세계적 화이트해커로 구성된 ‘그레이해쉬’
+              인수
+            </li>
+            <li>라인, 글로벌 암호화폐 거래소 비트박스에 아이콘(ICX) 상장</li>
+            <li>라인, 글로벌 암호화폐 거래소 비트박스 모바일 앱 출시</li>
+          </ul>
+        </div>
+        <div class="group2">
+          <ul class="news-list">
+            <li>
+              라인-한국정보과학회 블록체인 경진대회에서 링크체인 기반 에너지
+              거래 플랫폼 선보인 EVlock팀 우승
+            </li>
+            <li>
+              라인, 유저 의견 반영한 쉽고 편리한 핀테크 서비스 제공 위해
+              설문조사 실시
+            </li>
+            <li>
+              라인, 글로벌 개발 기술 컨퍼런스 ‘LINE DEV DAY 2018’ 개최
+            </li>
+            <li>
+              라인파이낸셜, KEB하나은행 인도네시아 신주인수계약 통해 인니 핀테크
+              사업 본격화
+            </li>
+          </ul>
+        </div>
       </section>
       <div class="article-bg">
         <article class="info">
-          <div class="info1">비즈니스</div>
-          <div class="info2">기술</div>
-          <div class="info3">채용</div>
-          <div class="info4">캐릭터</div>
+          <div class="info1">
+            <h4>비즈니스 제휴 문의</h4>
+             <p>LINE은 사용자들의 커뮤니케이션을 
+                더욱 즐겁게 만들어줄 파트너 기업을 
+                모집합니다.</p>
+          </div>
+          <div class="info2">
+            <h4>기술정보</h4>
+             <p>LINE의 개발자들은 다양한 서비스를 
+                개발하며, 기술적 도전을 매일 
+                경험하고있습니다.</p>
+          </div>
+          <div class="info3">
+            <h4>채용공고</h4>
+             <p>전 세계 인재들과 함께 
+                내 커리어를 level up 하고 싶다면 
+                지금 LINE에 조인하세요!</p>
+          </div>
+          <div class="info4">
+            <h4>캐릭터 사업</h4>
+             <p>메신저 속 LINE FRIENDS의 
+                다양한 제품들은 물론, 특별한 경험도 
+                선사합니다.</p>
+          </div>
         </article>
       </div>
       <footer class="footer">
-        푸터
-        <div class="family-sites"></div>
-        <div class="about"></div>
+        <div class="family-sites">
+          <select name="sites" class="family-sites">
+              <option value="01">Family Sites</option>
+          </select>
+        </div>
+        <div class="about-line">
+          <span>©LINE Corporation</span>
+          <ul>
+          <li><a href="#">개인정보처리방침</a></li>
+          <li><a href="#">LINE 파트너</a></li>
+          <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
       </footer>
     </div>
   </body>
