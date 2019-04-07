@@ -1,0 +1,173 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+.news::after{
+    content: "dkdkdk";
+    display:block;
+    clear:both;
+}
+.container{
+    padding-top:15vh;
+}
+.fixed-header, .news, .info, .footer{
+    width: 1200px;
+    margin: auto;
+}
+/* 헤더 */
+.header{
+    background: rgba(255,255,255,0.9);
+    width:100%;
+    position:fixed;
+    top: 0;
+}
+.readable-hidden{
+    position:absolute;
+    overflow: hidden;
+    width:1px;
+    height:1px;
+    margin:-1px;
+    clip: rect(0, 0, 0, 0);
+}
+.logo{
+    float:left;
+    line-height:15vh;
+}
+.menu, nav{
+    display:inline;
+}
+.menu{
+    padding-left: 100px;
+}
+.menu li {
+    display:inline;
+    line-height: 15vh;
+    font-size:1.2rem;
+    margin: 0 25px;
+}
+.page-service{
+    float:right;
+    line-height: 15vh;
+    font-size:1.2rem;
+}
+.language{
+    margin: 0 30px;
+}
+/* 동영상 */
+.line-video{
+    background: skyblue;
+    height:50vh;
+    font-size:3rem;
+    color:white;
+    text-align:center;
+    padding-top: 8%;
+}
+
+/* 섹션 */
+.news{
+    margin:30px auto;
+    position:relative;
+}
+.news::after{
+    content: "";
+    display:block;
+    clear:both;
+}
+.newsroom{
+    font-size:2rem;
+}
+.news-list li{
+    margin:30px 0;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.group1, .group2{
+    float:left;
+    width: 580px;
+    font-size:1rem;
+}
+.group2{
+    margin-left:40px;
+}
+.more-news{
+    position: absolute;
+    top:0;
+    right:0;
+}
+/* 아티클 */
+.article-bg{
+    background: rgb(247, 247, 247);
+}
+.info::after{
+    content: "";
+    display:block;
+    clear:both;
+}
+.info h4{
+    font-size:1.5rem;
+    line-height: 3;
+}
+.info1, .info2, .info3, .info4{
+    width:300px;
+    float:left;
+    padding:15px 20px 30px 0;
+    
+} 
+
+/* 푸터 */
+.footer{
+    height:15vh;
+    padding:30px 0;
+}
+.family-sites{
+    float:right;
+}
+.about-list, .about-list-item{
+    padding: 0 15px;
+    display:inline-block;
+}
+.about-list-item:nth-child(n+2)::before{ 
+    content: ":";
+}
