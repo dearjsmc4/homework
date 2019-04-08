@@ -61,6 +61,7 @@ a{
     position:fixed;
     top:0;
     z-index:10;
+    
 }
 .header::after{
     content:"";
@@ -78,21 +79,36 @@ a{
 .logo{
     float:left;
 }
-.page-service{
-    float:right;
+.language{
+    /* background: yellow; */
+    height: 36px;
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    position:absolute;
+    right:40px;
     line-height:36px;
+}
+.language-list{
+    float:right;
+}
+.btn-language{
+    width:120px;
 }
 .menu{
     float:left;
     padding-left: 150px;
+    /* background: lime; */
+    width:950px;
 }
 .menu-item{
     display:inline-block;
     line-height:36px;
     padding-right: 30px;
 }
-.service1, .service2{
-    display: inline-block;
+.sitemap{
+    float:right;
+    line-height:36px;
 }
 .language-item, .submenu{
     display:none;
@@ -109,17 +125,16 @@ a{
     position:relative;
     padding: 30px 0;
 }
-.news-group{
-    column-count: 2;
-}
+
 .newsroom{
     display:inline-block;
     font-size: 2rem;
 }
 .news-list{
     padding-bottom: 20px;
+    column-count: 2;
 }
-.news-list-item h4{
+.news-list-item{
     padding-top:20px;
     white-space: nowrap;
     overflow: hidden;
@@ -145,7 +160,7 @@ a{
 .info-title{
     font-size: 1.3rem;
 }
-.info p{
+.info dd{
     margin-top:10px;
 }
 
@@ -160,7 +175,7 @@ a{
 .about-list{
     float:left;
 }
-.about-line span{
+.about-line small{
     float:left;
     margin-right: 20px;
 }
