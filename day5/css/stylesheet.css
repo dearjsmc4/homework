@@ -131,14 +131,21 @@ a{
     font-size: 2rem;
 }
 .news-list{
-    padding-bottom: 20px;
+    padding-top: 20px;
     column-count: 2;
 }
-.news-list-item{
-    padding-top:20px;
+
+.news-list-item a{
+    margin-bottom:20px;
+    display: block;
+    width:600px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+.news-list-item time{
+    display:block;
+    color:rgb(86, 214, 69);
 }
 
 .more-news{
