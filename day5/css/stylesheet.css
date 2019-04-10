@@ -61,7 +61,7 @@ a{
     position:fixed;
     top:0;
     z-index:10;
-    
+    height:96px;
 }
 .header::after{
     content:"";
@@ -78,16 +78,20 @@ a{
 }
 .logo{
     float:left;
+    background: blue;
+}
+.logo img{
+    width:70px;
+    height:25px;
 }
 .language{
-    /* background: yellow; */
-    height: 36px;
+    background: blue;
+    margin-top:5px;
     position: relative;
     display: inline-block;
     width: 120px;
     position:absolute;
     right:40px;
-    line-height:36px;
 }
 .language-list{
     float:right;
@@ -95,24 +99,24 @@ a{
 .btn-language{
     width:120px;
 }
+.language-list, .submenu{
+    display:none;
+}
 .menu{
     float:left;
     padding-left: 150px;
-    /* background: lime; */
+    margin-top:5px;
     width:950px;
+    background: lime;
 }
 .menu-item{
     display:inline-block;
-    line-height:36px;
     padding-right: 30px;
 }
 .sitemap{
     float:right;
-    line-height:36px;
 }
-.language-item, .submenu{
-    display:none;
-}
+
 /* 메인 미션 */
 .line-mission{
     width:100%;
