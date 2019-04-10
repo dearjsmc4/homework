@@ -94,7 +94,7 @@ body{
 .menu{
     float:left;
     padding-left: 160px;
-    margin-top:5px;
+    margin-top:10px;
     width:980px;
 }
 .menu-item{
@@ -110,7 +110,7 @@ body{
 .submenu{
     z-index:10;
     display: none;
-    margin-top:61px;
+    margin-top:56px;
     position:absolute;
     top:0;
     left:50%;
@@ -146,20 +146,22 @@ body{
     background: white;
     border: 1px solid #aaa;
     position:absolute;
-    /* top:0;
-    left:0; */
-    width:130px;
+    top:0;
+    left:0;
+    width:120px;
+    display:none;
 }
 .language-item{
     margin: 5px 0;
 }
 .btn-language{
     font-size:1em;
-    width:130px;
-    padding: 10px 20px;
+    width:120px;
+    padding: 8px 20px;
     border-radius: 20px;
     background: #fff;
     border: 1px solid #aaa;
+    cursor:pointer;
 }
 
 
