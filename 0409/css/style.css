@@ -126,6 +126,7 @@ body{
 }
 .submenu-item{
     display:inline-block;
+    vertical-align: top;
     margin:30px 0;
 }
 .submenu-item a{
